@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "description": "",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "offline": "npx sls offline --host 0.0.0.0 start",
+    "start": "npx nodemon",
+    "test": "npx vitest run",
+    "test:watch": "npx vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.140",
+    "@types/node": "^20.14.8",
+    "esbuild": "^0.20.2",
+    "nodemon": "^3.1.4",
+    "serverless-esbuild": "^1.52.1",
+    "serverless-offline": "^13.6.0",
+    "typescript": "^5.5.2",
+    "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "aws-lambda": "^1.0.7"
+  }
+}
