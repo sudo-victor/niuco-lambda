@@ -5,7 +5,7 @@ provider:
   name: aws
   runtime: nodejs18.x
   environment:
-    API_URL: ${env:API_URL}
+    API_URL: ${env:API_URL, "http://localhost:8080"}
 
 plugins:
   - serverless-esbuild
