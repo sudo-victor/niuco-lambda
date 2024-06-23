@@ -1,3 +1,3 @@
 export class Entity<T> {
-  constructor(private props: T) {}
+  constructor(protected props: T) {}
 }
