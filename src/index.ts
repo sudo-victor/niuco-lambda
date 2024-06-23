@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import { LambdaFunctionURLEvent } from "aws-lambda";
 
 export const handler = async (event: LambdaFunctionURLEvent) => {
