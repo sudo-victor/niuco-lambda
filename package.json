@@ -25,6 +25,7 @@
   "dependencies": {
     "aws-lambda": "^1.0.7",
     "axios": "^1.7.2",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "pino": "^9.2.0"
   }
 }
